@@ -1,0 +1,130 @@
+/* header styling code for the portal */
+
+.logohead{
+  margin-left: 125px;
+}
+
+p {
+  margin-left: 30px;
+  margin-bottom: -4px;
+  color: #449247;
+  font-family: 'Tahoma';
+  font-size: large;
+  background-color: rgb(236, 243, 243);
+  width: 85%;
+  padding-top: 10px ;
+}
+hr{
+  color: #449247;
+  width: 85%;
+
+}
+
+
+/*code for the first container */
+
+/* Add styles to the form container */
+.container {
+  position: absolute;
+  margin-left: 150px;
+  margin-top: 50px;
+  max-width: 100%;
+  max-height: ;
+  padding: 10px;
+  background-color: white;
+  border-radius: 10px;
+  font-size: 13px;
+  border-bottom: 5px #449247;
+  border: 1px aliceblue;
+  
+}
+
+.p-head{
+  margin: 0%;
+  font-family: 'Segoe UI light';
+}
+
+.aside2{
+  position: absolute;
+  margin-left: 500px;
+  margin-top: 50px;
+  max-width: 100%;
+  max-height: ;
+  padding: 10px;
+  background-color: white;
+  border-radius: 10px;
+  font-size: 13px;
+  border-bottom: 5px #060;
+}
+.aside2 ul li {
+  text-decoration: none;
+  border-top: 1px solid rgb(114, 108, 108);
+  display: block;
+  padding: 10px;
+  margin-right: -5px;
+  color: #60A;
+}
+.update-li a {
+  text-decoration: none;
+  color: #060; 
+}
+a:hover{
+  color: white;
+  background-color: rgb(219, 219, 210);
+}
+#rec {
+  text-decoration: none;
+  color: rgb(218, 218, 54);
+  margin-right: 15px;
+}
+
+.bg-img {
+  /* The image used */
+  background-image: url("bg.jpg");
+
+  min-height: 520px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 250px;
+  padding: 5px;
+  margin: 5px;
+  margin-top: 15px;
+  border: 1px rgb(211, 212, 212);
+  border-radius: 3px;
+}
+
+
+
+/* Set a style for the submit button */
+.btn {
+  font-size: 10px;
+  background-color: #449247;
+  color: white;
+  padding: 5px;
+  padding-left: 38px;
+  padding-right: 38px;
+  border: #449247 5px;
+  border-radius: 2px;
+  cursor: pointer;
+  width: auto;
+  margin-left: 70px;
+  margin-right:20px;
+
+  opacity: 0.9;
+  margin-bottom: 20px;
+
+}
+
+.btn:hover {
+  opacity: 1;
+  color: red;
+}
